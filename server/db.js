@@ -9,7 +9,7 @@ const connectDatabase =async() =>{
             useNewUrlParser:true,  
 
     })
-    
+    console.log("Mongo Connected")
 
     mongoose.connection.on('open', () => console.log('MongoDB connected!'));
 }catch(error){
