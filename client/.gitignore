@@ -1,7 +1,20 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
+# dependencies
 /node_modules
+node_modules/
+
+# client-side
+/client/node_modules
+
+# server-side
+/server/node_modules
+
+# build artifacts
+/build
+
+
 /.pnp
 .pnp.js
 
