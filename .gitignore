@@ -2,13 +2,12 @@
 
 # dependencies
 # dependencies
-node_modules
 node_modules/
-# client-side
-/client/node_modules
 
-# server-side
-/server/node_modules
+# client-side
+
+
+
 
 # build artifacts
 /build
